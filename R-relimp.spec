@@ -4,7 +4,7 @@
 #
 Name     : R-relimp
 Version  : 1.0.5
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/relimp_1.0-5.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/relimp_1.0-5.tar.gz
 Summary  : Relative Contribution of Effects in a Regression Model
@@ -23,11 +23,11 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1530338041
+export SOURCE_DATE_EPOCH=1530345882
 
 %install
 rm -rf %{buildroot}
-export SOURCE_DATE_EPOCH=1530338041
+export SOURCE_DATE_EPOCH=1530345882
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
 export FCFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
